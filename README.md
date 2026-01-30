@@ -1,25 +1,21 @@
-# 🏭 Industrial AI & Optimization Lab
+# Industrial AI & Optimization Lab
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![Status](https://img.shields.io/badge/Status-Active-success)
-![Focus](https://img.shields.io/badge/Focus-Metaheuristics%20%26%20Optimization-orange)
+## Proje Hakkında
+Ben, **Yöneylem Araştırması (Operations Research)** ve **Yazılım Mühendisliği** arasında bir köprü kurmaya odaklanmış son sınıf bir Endüstri Mühendisliği öğrencisiyim.
 
-## 🚀 About The Project
-Welcome to my algorithmic laboratory! I am a final-year **Industrial Engineering** student passionate about bridging the gap between **Operations Research** and **Software Engineering**.
+Bu repoda, popüler **Metasezgisel Optimizasyon Algoritmalarını** hazır kütüphaneler kullanmadan, **sıfırdan (from scratch)** Python ile kodluyorum. Amacım, bu algoritmaların arkasındaki matematiksel sezgiyi kavramak, algoritmik düşünce yapımı geliştirmek ve bunları aşağıdaki gibi karmaşık mühendislik problemlerine uygulamaktır:
 
-In this repository, I build, analyze, and visualize popular **Metaheuristic Optimization Algorithms** from scratch (without relying on black-box optimization libraries). My goal is to understand the mathematical intuition behind these algorithms and apply them to complex engineering problems such as:
-* Production Planning
-* Supply Chain Optimization
-* Scheduling Problems
-* System Simulation
+* Üretim Planlama ve Çizelgeleme
+* Tedarik Zinciri Optimizasyonu
+* Rotalama Problemleri (TSP, VRP)
+* Sistem Simülasyonu
 
-## 📂 Repository Structure
-This archive follows a "from simple to complex" learning path:
+## Klasör Yapısı (Öğrenme Yolculuğum)
+Bu arşiv, "basitten karmaşığa" giden bir öğrenme yolunu takip eder:
 
-```text
 Metaheuristic-Optimization-Lab/
-├── 01_Hill_Climbing/          # The greedy approach & Local Optima analysis
-├── 02_Simulated_Annealing/    # Escaping local optima using thermodynamics logic
-├── 03_Particle_Swarm_Opt/     # Swarm intelligence (Planned)
-├── 04_Genetic_Algorithm/      # Evolutionary computation (Planned)
+├── 01_Hill_Climbing/          # Açgözlü (Greedy) yaklaşım & Yerel Zirve (Local Optima) analizi
+├── 02_Simulated_Annealing/    # Termodinamik mantığıyla yerel tuzaklardan kaçış
+├── 03_Particle_Swarm_Opt/     # Sürü zekası (Planlandı)
+├── 04_Genetic_Algorithm/      # Evrimsel hesaplama (Planlandı)
 └── ...
